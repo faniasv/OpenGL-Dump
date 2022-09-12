@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
     glutCreateWindow("Primitive Object");
 
     glutReshapeFunc(resize);
-    glutDisplayFunc(recnolines);
+    glutDisplayFunc(reclines);
     glutKeyboardFunc(key);
     glutIdleFunc(idle);
 
